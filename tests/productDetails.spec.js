@@ -1,3 +1,5 @@
+/* eslint-disable sonarjs/no-duplicate-string */
+/* eslint-disable max-len */
 const assert = require('assert');
 const productDetails = require('../src/productDetails');
 
@@ -39,7 +41,8 @@ describe('6 - Implemente os casos de teste para a função `productDetails`', ()
     assert.strictEqual(typeof productDetails('miojo', 'biscoito(nao e bolacha)')[0], 'object');
     assert.strictEqual(typeof productDetails('miojo', 'biscoito(nao e bolacha)')[1], 'object');
     // Teste que os dois objetos são diferentes entre si.
-    assert.notDeepStrictEqual(productDetails('miojo', 'biscoito(nao e bolacha)')[0] === productDetails('miojo', 'biscoito(nao e bolacha)')[1], true);
+    assert.notDeepStrictEqual(productDetails('miojo', 'biscoito(nao e bolacha)')[0] 
+    === productDetails('miojo', 'biscoito(nao e bolacha)')[1], true);
     // Teste que os dois productIds terminam com 123.
     assert.strictEqual(Object.values(productDetails('miojo', 'biscoito(nao e bolacha)'))[0].details.productId.endsWith(123), true);
     assert.strictEqual(Object.values(productDetails('miojo', 'biscoito(nao e bolacha)'))[1].details.productId.endsWith(123), true);

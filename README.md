@@ -13,9 +13,6 @@
   - [8. Implemente a função myCounter](#8-implemente-a-função-mycounter)
   - [9. Implemente os casos de teste para a função getCharacter](#9-implemente-os-casos-de-teste-para-a-função-getcharacter)
   - [10. Implemente os casos de teste e a função createMenu](#10-implemente-os-casos-de-teste-e-a-função-createmenu)
-- [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos finais](#avisos-finais)
 
 ---
 
